@@ -1,0 +1,63 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{setspace}
+\onehalfspacing
+
+\begin{document}
+
+\section*{Decomposition Formula Used in the Slide Figure}
+
+\subsection*{Setup}
+
+For each year $t$, the model estimates:
+\begin{itemize}
+  \item $\omega_\theta$: population share of type $\theta$ (fixed at trend values in Phase~3)
+  \item $u_\theta(t)$: ergodic unemployment \emph{mass} of type $\theta$ (i.e., the fraction of type $\theta$ that is unemployed in the ergodic distribution of its transition matrix in year $t$)
+\end{itemize}
+
+\subsection*{Step 1: Aggregate unemployment mass}
+
+The aggregate unemployment mass (fraction of the total population that is unemployed) is:
+\begin{equation}
+  U_{\mathrm{agg}}(t) = \sum_{\theta=1}^{5} \omega_\theta \cdot u_\theta(t)
+\end{equation}
+
+\subsection*{Step 2: Change in aggregate unemployment}
+
+For a recession with peak year $t_0$ and trough year $t_1$:
+\begin{equation}
+  \Delta U_{\mathrm{agg}} = U_{\mathrm{agg}}(t_1) - U_{\mathrm{agg}}(t_0) = \sum_{\theta=1}^{5} \omega_\theta \cdot \bigl[u_\theta(t_1) - u_\theta(t_0)\bigr] = \sum_{\theta=1}^{5} \omega_\theta \cdot \Delta u_\theta
+\end{equation}
+
+\subsection*{Step 3: Type $\theta$'s share of the aggregate increase}
+
+\begin{equation}
+  \boxed{\text{Share}_\theta = \frac{\omega_\theta \cdot \Delta u_\theta}{\sum_{\theta'=1}^{5} \omega_{\theta'} \cdot \Delta u_{\theta'}} \times 100\%}
+\end{equation}
+
+By construction, $\sum_{\theta=1}^{5} \text{Share}_\theta = 100\%$.
+
+\medskip
+
+Since $\omega_{\mathrm{All\text{-}N}}$ types have $u_{\mathrm{All\text{-}N}}(t) = 0$ for all $t$, All-N always contributes zero.
+
+\subsection*{Step 4: Renormalization to mover types only (used in slide figure)}
+
+The slide figure shows only the three mover types (High-N, High-U, High-E), renormalized:
+\begin{equation}
+  \text{Share}_\theta^{\mathrm{mover}} = \frac{\text{Share}_\theta}{\text{Share}_{\mathrm{High\text{-}N}} + \text{Share}_{\mathrm{High\text{-}U}} + \text{Share}_{\mathrm{High\text{-}E}}} \times 100\%, \quad \theta \in \{\text{High-N, High-U, High-E}\}
+\end{equation}
+
+\subsection*{Difference from the paper's formula}
+
+The \textbf{paper} uses the unemployment \emph{rate} decomposition:
+\begin{equation}
+  c_\theta(t) = \frac{\omega_\theta \cdot u_\theta(t)}{\underbrace{\sum_{\theta'} \omega_{\theta'} \cdot [u_{\theta'}(t) + e_{\theta'}(t)]}_{LF_{\mathrm{agg}}(t)}}, \qquad \text{Share}_\theta^{\mathrm{paper}} = \frac{\Delta c_\theta}{\Delta UR}
+\end{equation}
+
+The difference: the paper divides by $LF_{\mathrm{agg}}(t)$ which \emph{changes between peak and trough}. This introduces cross-terms that can make All-E's contribution large and negative (up to $-79\%$ in 2020), because All-E's $u_{\mathrm{All\text{-}E}}$ fluctuates slightly and is multiplied by $\omega_{\mathrm{All\text{-}E}} \approx 0.60$.
+
+The slide formula (eq.~3 above) avoids this by working with unemployment \emph{mass} directly, without dividing by a time-varying labor force.
+
+\end{document}

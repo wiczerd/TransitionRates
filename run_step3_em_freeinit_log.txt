@@ -1,0 +1,136 @@
+=== Phase 3 Sequential EM Free Init: 47 years ===
+Loading data ...
+Data loaded: 6561 paths x 47 years
+Loading sequential results ...
+Sequential results loaded (mean fval=1.7070)
+
+=== FORWARD PASS ===
+Fwd 1 (1976): fval=1.4087 (seq=1.4197, delta=-0.0109) ** IMPROVED  [407s]
+Fwd 2 (1978): fval=1.3273 (seq=1.3365, delta=-0.0092) ** IMPROVED  [1030s]
+Fwd 3 (1979): fval=1.4341 (seq=1.4465, delta=-0.0124) ** IMPROVED  [256s]
+Fwd 4 (1980): fval=1.5624 (seq=1.5716, delta=-0.0092) ** IMPROVED  [831s]
+Fwd 5 (1981): fval=1.6827 (seq=1.6991, delta=-0.0164) ** IMPROVED  [387s]
+Fwd 6 (1982): fval=1.8401 (seq=1.8526, delta=-0.0125) ** IMPROVED  [87s]
+Fwd 7 (1983): fval=1.6988 (seq=1.7101, delta=-0.0113) ** IMPROVED  [1013s]
+Fwd 8 (1984): fval=1.6888 (seq=1.6991, delta=-0.0104) ** IMPROVED  [53s]
+Fwd 9 (1985): fval=1.7346 (seq=1.7474, delta=-0.0128) ** IMPROVED  [55s]
+Fwd 10 (1986): fval=1.6048 (seq=1.6116, delta=-0.0068) ** IMPROVED  [375s]
+Fwd 11 (1987): fval=1.4958 (seq=1.5058, delta=-0.0100) ** IMPROVED  [392s]
+Fwd 12 (1988): fval=1.4895 (seq=1.4981, delta=-0.0085) ** IMPROVED  [135s]
+Fwd 13 (1989): fval=1.4984 (seq=1.5100, delta=-0.0115) ** IMPROVED  [98s]
+Fwd 14 (1990): fval=1.5972 (seq=1.6076, delta=-0.0104) ** IMPROVED  [433s]
+Fwd 15 (1991): fval=1.7093 (seq=1.7946, delta=-0.0853) ** IMPROVED  [362s]
+Fwd 16 (1992): fval=1.7068 (seq=1.7160, delta=-0.0092) ** IMPROVED  [315s]
+Fwd 17 (1994): fval=1.7934 (seq=1.8040, delta=-0.0107) ** IMPROVED  [136s]
+Fwd 18 (1995): fval=1.5841 (seq=1.5943, delta=-0.0101) ** IMPROVED  [51s]
+Fwd 19 (1996): fval=1.5412 (seq=1.5495, delta=-0.0083) ** IMPROVED  [52s]
+Fwd 20 (1997): fval=1.4957 (seq=1.5125, delta=-0.0167) ** IMPROVED  [52s]
+Fwd 21 (1998): fval=1.4894 (seq=1.5200, delta=-0.0306) ** IMPROVED  [49s]
+Fwd 22 (1999): fval=1.5163 (seq=1.5247, delta=-0.0084) ** IMPROVED  [52s]
+Fwd 23 (2000): fval=1.5797 (seq=1.5907, delta=-0.0110) ** IMPROVED  [52s]
+Fwd 24 (2001): fval=1.6633 (seq=1.6790, delta=-0.0157) ** IMPROVED  [51s]
+Fwd 25 (2002): fval=1.7431 (seq=1.7520, delta=-0.0089) ** IMPROVED  [51s]
+Fwd 26 (2003): fval=1.9041 (seq=1.9302, delta=-0.0261) ** IMPROVED  [49s]
+Fwd 27 (2004): fval=1.6446 (seq=1.6683, delta=-0.0237) ** IMPROVED  [358s]
+Fwd 28 (2005): fval=1.6220 (seq=1.6443, delta=-0.0223) ** IMPROVED  [280s]
+Fwd 29 (2006): fval=1.6124 (seq=1.6211, delta=-0.0088) ** IMPROVED  [60s]
+Fwd 30 (2007): fval=1.6681 (seq=1.6767, delta=-0.0086) ** IMPROVED  [53s]
+Fwd 31 (2008): fval=2.0035 (seq=2.0242, delta=-0.0207) ** IMPROVED  [55s]
+[Warning: Matrix is singular to working precision.] 
+[> In backsolveSys
+In solveKKTsystem
+In computeTrialStep
+In barrier
+In fmincon (line 657)
+In run_step3_em_freeinit>optimize_from_warmstart_fi (line 594)
+In run_step3_em_freeinit>run_year_em_fmincon (line 518)
+In run_step3_em_freeinit (line 195)
+] 
+Fwd 32 (2009): fval=2.1225 (seq=2.1331, delta=-0.0107) ** IMPROVED  [891s]
+[Warning: Matrix is singular to working precision.] 
+[> In backsolveSys
+In solveKKTsystem
+In computeTrialStep
+In barrier
+In fmincon (line 657)
+In run_step3_em_freeinit>optimize_from_warmstart_fi (line 594)
+In run_step3_em_freeinit>run_year_em_fmincon (line 518)
+In run_step3_em_freeinit (line 195)
+] 
+Fwd 33 (2010): fval=2.0807 (seq=2.0914, delta=-0.0108) ** IMPROVED  [837s]
+Fwd 34 (2011): fval=2.0055 (seq=2.0153, delta=-0.0098) ** IMPROVED  [633s]
+Fwd 35 (2012): fval=1.9603 (seq=1.9699, delta=-0.0096) ** IMPROVED  [489s]
+Fwd 36 (2013): fval=1.8654 (seq=1.8799, delta=-0.0145) ** IMPROVED  [394s]
+Fwd 37 (2014): fval=1.8114 (seq=1.8216, delta=-0.0101) ** IMPROVED  [540s]
+Fwd 38 (2015): fval=1.7511 (seq=1.7595, delta=-0.0084) ** IMPROVED  [81s]
+Fwd 39 (2016): fval=1.7345 (seq=1.7506, delta=-0.0161) ** IMPROVED  [74s]
+Fwd 40 (2017): fval=1.6582 (seq=1.6767, delta=-0.0186) ** IMPROVED  [51s]
+Fwd 41 (2018): fval=1.6389 (seq=1.6480, delta=-0.0092) ** IMPROVED  [81s]
+Fwd 42 (2019): fval=1.9290 (seq=1.9543, delta=-0.0253) ** IMPROVED  [86s]
+Fwd 43 (2020): fval=2.0920 (seq=2.1093, delta=-0.0173) ** IMPROVED  [68s]
+Fwd 44 (2021): fval=1.7239 (seq=1.7318, delta=-0.0078) ** IMPROVED  [467s]
+Fwd 45 (2022): fval=1.6456 (seq=1.6508, delta=-0.0052) ** IMPROVED  [313s]
+Fwd 46 (2023): fval=1.6475 (seq=1.6561, delta=-0.0085) ** IMPROVED  [56s]
+Fwd 47 (2024): fval=1.5487 (seq=1.5646, delta=-0.0160) ** IMPROVED  [48s]
+
+=== BACKWARD PASS ===
+Bwd 47 (2024): fval=1.5491 (seq=1.5646, delta=-0.0156) ** IMPROVED  [37s]
+Bwd 46 (2023): fval=1.6475 (seq=1.6561, delta=-0.0085) ** IMPROVED  [54s]
+Bwd 45 (2022): fval=1.6455 (seq=1.6508, delta=-0.0053) ** IMPROVED  [206s]
+Bwd 44 (2021): fval=1.7239 (seq=1.7318, delta=-0.0078) ** IMPROVED  [481s]
+Bwd 43 (2020): fval=2.0932 (seq=2.1093, delta=-0.0161) ** IMPROVED  [54s]
+Bwd 42 (2019): fval=1.9290 (seq=1.9543, delta=-0.0253) ** IMPROVED  [84s]
+Bwd 41 (2018): fval=1.6397 (seq=1.6480, delta=-0.0083) ** IMPROVED  [216s]
+Bwd 40 (2017): fval=1.6582 (seq=1.6767, delta=-0.0186) ** IMPROVED  [98s]
+Bwd 39 (2016): fval=1.7350 (seq=1.7506, delta=-0.0156) ** IMPROVED  [248s]
+Bwd 38 (2015): fval=1.7511 (seq=1.7595, delta=-0.0084) ** IMPROVED  [402s]
+Bwd 37 (2014): fval=1.8123 (seq=1.8216, delta=-0.0093) ** IMPROVED  [352s]
+Bwd 36 (2013): fval=1.8678 (seq=1.8799, delta=-0.0121) ** IMPROVED  [61s]
+Bwd 35 (2012): fval=1.9616 (seq=1.9699, delta=-0.0083) ** IMPROVED  [376s]
+Bwd 34 (2011): fval=2.0066 (seq=2.0153, delta=-0.0087) ** IMPROVED  [454s]
+Bwd 33 (2010): fval=2.0836 (seq=2.0914, delta=-0.0078) ** IMPROVED  [212s]
+Bwd 32 (2009): fval=2.1234 (seq=2.1331, delta=-0.0098) ** IMPROVED  [347s]
+Bwd 31 (2008): fval=2.0051 (seq=2.0242, delta=-0.0191) ** IMPROVED  [921s]
+Bwd 30 (2007): fval=1.6694 (seq=1.6767, delta=-0.0074) ** IMPROVED  [247s]
+Bwd 29 (2006): fval=1.6132 (seq=1.6211, delta=-0.0080) ** IMPROVED  [368s]
+Bwd 28 (2005): fval=1.6235 (seq=1.6443, delta=-0.0207) ** IMPROVED  [264s]
+Bwd 27 (2004): fval=1.6449 (seq=1.6683, delta=-0.0235) ** IMPROVED  [165s]
+Bwd 26 (2003): fval=1.9029 (seq=1.9302, delta=-0.0273) ** IMPROVED  [49s]
+Bwd 25 (2002): fval=1.7445 (seq=1.7520, delta=-0.0075) ** IMPROVED  [291s]
+Bwd 24 (2001): fval=1.6649 (seq=1.6790, delta=-0.0141) ** IMPROVED  [419s]
+Bwd 23 (2000): fval=1.5804 (seq=1.5907, delta=-0.0103) ** IMPROVED  [124s]
+Bwd 22 (1999): fval=1.5173 (seq=1.5247, delta=-0.0074) ** IMPROVED  [52s]
+Bwd 21 (1998): fval=1.4903 (seq=1.5200, delta=-0.0297) ** IMPROVED  [297s]
+Bwd 20 (1997): fval=1.4961 (seq=1.5125, delta=-0.0163) ** IMPROVED  [51s]
+Bwd 19 (1996): fval=1.5404 (seq=1.5495, delta=-0.0091) ** IMPROVED  [51s]
+Bwd 18 (1995): fval=1.5844 (seq=1.5943, delta=-0.0099) ** IMPROVED  [52s]
+Bwd 17 (1994): fval=1.7938 (seq=1.8040, delta=-0.0102) ** IMPROVED  [53s]
+Bwd 16 (1992): fval=1.7076 (seq=1.7160, delta=-0.0084) ** IMPROVED  [52s]
+Bwd 15 (1991): fval=1.7097 (seq=1.7946, delta=-0.0849) ** IMPROVED  [85s]
+Bwd 14 (1990): fval=1.5978 (seq=1.6076, delta=-0.0098) ** IMPROVED  [52s]
+Bwd 13 (1989): fval=1.4987 (seq=1.5100, delta=-0.0113) ** IMPROVED  [52s]
+Bwd 12 (1988): fval=1.4895 (seq=1.4981, delta=-0.0085) ** IMPROVED  [50s]
+Bwd 11 (1987): fval=1.4958 (seq=1.5058, delta=-0.0100) ** IMPROVED  [249s]
+Bwd 10 (1986): fval=1.6039 (seq=1.6116, delta=-0.0077) ** IMPROVED  [371s]
+Bwd 9 (1985): fval=1.7354 (seq=1.7474, delta=-0.0121) ** IMPROVED  [85s]
+Bwd 8 (1984): fval=1.6887 (seq=1.6991, delta=-0.0104) ** IMPROVED  [52s]
+Bwd 7 (1983): fval=1.6992 (seq=1.7101, delta=-0.0109) ** IMPROVED  [52s]
+Bwd 6 (1982): fval=1.8422 (seq=1.8526, delta=-0.0105) ** IMPROVED  [298s]
+Bwd 5 (1981): fval=1.6842 (seq=1.6991, delta=-0.0148) ** IMPROVED  [427s]
+Bwd 4 (1980): fval=1.5625 (seq=1.5716, delta=-0.0091) ** IMPROVED  [238s]
+Bwd 3 (1979): fval=1.4345 (seq=1.4465, delta=-0.0120) ** IMPROVED  [118s]
+Bwd 2 (1978): fval=1.3279 (seq=1.3365, delta=-0.0087) ** IMPROVED  [52s]
+Bwd 1 (1976): fval=1.4092 (seq=1.4197, delta=-0.0105) ** IMPROVED  [52s]
+
+=== COMBINING RESULTS ===
+Improved: 47/47 years
+Mean fval: existing=1.7070, free-init=1.6926 (delta=-0.0144)
+Sources: existing=0, forward=41, backward=6
+
+Post-processing and saving...
+
+=== FINAL SUMMARY ===
+Improved: 47/47
+Mean fval: sequential=1.7070 -> free-init=1.6926 (delta=-0.0144)
+Sources: existing=0, forward=41, backward=6
+Total time: 368.6 minutes

@@ -1,0 +1,144 @@
+Loading data...
+Year 20 (1997): omegas = [0.0811 0.0802 0.0404 0.1487 0.6497]
+
+Screening 9 candidates:
+  Candidate 1: fval=1.9853
+  Candidate 2: fval=1.9797
+  Candidate 3: fval=1.9788
+  Candidate 4: fval=1.9835
+  Candidate 5: fval=1.9721
+  Candidate 6: fval=7.3978
+  Candidate 7: fval=6.5996
+  Candidate 8: fval=2.8274
+  Candidate 9: fval=3.0623
+Best candidate: fval=1.9721
+
+--- Pass 1: interior-point, forward FD ---
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+    0      49    1.972121e+00    0.000e+00    1.873e+01
+    1     100    1.903970e+00    0.000e+00    1.650e+01    1.995e-01
+    2     151    1.928268e+00    0.000e+00    1.611e+01    2.339e-01
+    3     200    1.810680e+00    0.000e+00    8.765e+00    7.139e-01
+    4     250    1.800377e+00    0.000e+00    1.213e+00    7.605e-02
+    5     300    1.816355e+00    0.000e+00    2.424e+00    1.143e-01
+    6     351    1.822435e+00    0.000e+00    2.083e+00    4.454e-02
+    7     402    1.824993e+00    0.000e+00    1.979e+00    3.961e-02
+    8     452    1.825880e+00    0.000e+00    1.313e+00    6.332e-02
+    9     502    1.822901e+00    0.000e+00    7.825e-01    4.197e-02
+   10     552    1.819048e+00    0.000e+00    6.369e-01    3.900e-02
+   11     602    1.801311e+00    0.000e+00    6.184e-01    3.637e-02
+   12     652    1.778280e+00    0.000e+00    3.235e-01    4.850e-02
+   13     702    1.755471e+00    0.000e+00    4.205e-01    5.599e-02
+   14     752    1.737244e+00    0.000e+00    3.257e-01    5.110e-02
+   15     802    1.722891e+00    0.000e+00    3.541e-01    4.738e-02
+   16     852    1.711684e+00    0.000e+00    2.989e-01    3.851e-02
+   17     902    1.704348e+00    0.000e+00    3.553e-01    2.675e-02
+   18     952    1.699102e+00    0.000e+00    3.748e-01    1.954e-02
+   19    1002    1.695020e+00    0.000e+00    3.805e-01    1.534e-02
+   20    1052    1.691743e+00    0.000e+00    3.804e-01    1.238e-02
+   21    1102    1.689132e+00    0.000e+00    3.778e-01    9.913e-03
+   22    1152    1.687086e+00    0.000e+00    3.744e-01    7.803e-03
+   23    1202    1.685500e+00    0.000e+00    3.709e-01    6.077e-03
+   24    1252    1.684275e+00    0.000e+00    3.677e-01    4.712e-03
+   25    1302    1.683330e+00    0.000e+00    3.650e-01    3.651e-03
+   26    1352    1.682598e+00    0.000e+00    3.627e-01    2.831e-03
+   27    1402    1.682031e+00    0.000e+00    3.609e-01    2.197e-03
+   28    1452    1.681591e+00    0.000e+00    3.594e-01    1.706e-03
+   29    1502    1.681249e+00    0.000e+00    3.583e-01    1.325e-03
+   30    1552    1.680983e+00    0.000e+00    3.573e-01    1.030e-03
+
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+   31    1602    1.680777e+00    0.000e+00    3.566e-01    8.010e-04
+   32    1652    1.680616e+00    0.000e+00    3.560e-01    6.231e-04
+   33    1702    1.680491e+00    0.000e+00    3.556e-01    4.848e-04
+   34    1752    1.680393e+00    0.000e+00    3.553e-01    3.773e-04
+   35    1802    1.680318e+00    0.000e+00    3.550e-01    2.937e-04
+   36    1852    1.680259e+00    0.000e+00    3.548e-01    2.286e-04
+   37    1902    1.680213e+00    0.000e+00    3.546e-01    1.780e-04
+   38    1952    1.680177e+00    0.000e+00    3.545e-01    1.386e-04
+   39    2002    1.680149e+00    0.000e+00    3.544e-01    1.079e-04
+   40    2052    1.680127e+00    0.000e+00    3.543e-01    8.401e-05
+   41    2102    1.680110e+00    0.000e+00    3.542e-01    6.542e-05
+   42    2152    1.680097e+00    0.000e+00    3.542e-01    5.095e-05
+   43    2202    1.680087e+00    0.000e+00    3.542e-01    3.968e-05
+   44    2252    1.680079e+00    0.000e+00    3.541e-01    3.090e-05
+   45    2302    1.680073e+00    0.000e+00    3.541e-01    2.406e-05
+   46    2352    1.680068e+00    0.000e+00    3.541e-01    1.874e-05
+   47    2402    1.680064e+00    0.000e+00    3.541e-01    1.459e-05
+   48    2452    1.680061e+00    0.000e+00    3.541e-01    1.137e-05
+   49    2502    1.680059e+00    0.000e+00    3.541e-01    8.851e-06
+   50    2552    1.680057e+00    0.000e+00    3.540e-01    6.893e-06
+
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+
+Pass 1: ef=2, fval=1.680057, 1stOrd=3.54e-01, 143.6s
+
+--- Pass 2: SQP, central FD ---
+ Iter  Func-count            Fval   Feasibility   Step Length       Norm of   First-order  
+                                                                       step    optimality
+    0          97    1.680057e+00     0.000e+00     1.000e+00     0.000e+00     5.000e+15  
+    1         194    1.664397e+00     1.499e-16     1.000e+00     3.093e-01     1.500e+16  
+    2         256    1.664397e+00     1.499e-16     2.489e-10     2.091e-10     5.000e+15  
+
+Local minimum possible. Constraints satisfied.
+
+fmincon stopped because the size of the current step is less than
+the value of the step size tolerance and constraints are 
+satisfied to within the value of the constraint tolerance.
+
+Pass 2: ef=2, fval=1.664397, 1stOrd=5.00e+15, 13.8s
+  -> Accepted (improved)
+
+--- Pass 3: interior-point, central FD ---
+Initial point X0 is not between bounds LB and UB; 
+FMINCON shifted X0 to strictly satisfy the bounds.
+
+                                            First-order      Norm of
+ Iter F-count            f(x)  Feasibility   optimality         step
+    0      97    1.000000e+12    4.387e-01    0.000e+00
+    1     194    1.000000e+12    6.406e-02    0.000e+00    8.396e-01
+    2     291    1.844137e+00    0.000e+00    5.000e+16    2.457e-01
+    3     389    1.822432e+00    0.000e+00    4.217e+16    1.510e-02
+    4     487    1.811517e+00    0.000e+00    2.107e+16    3.649e-02
+    5     585    1.806314e+00    0.000e+00    1.052e+16    2.482e-02
+    6     683    1.805451e+00    0.000e+00    5.258e+15    1.306e-02
+    7     781    1.805220e+00    0.000e+00    2.629e+15    7.014e-03
+    8     879    1.787704e+00    0.000e+00    1.373e+15    3.865e-02
+    9     977    1.768905e+00    0.000e+00    7.024e+14    4.545e-02
+   10    1074    1.708540e+00    0.000e+00    2.212e+14    1.638e-01
+   11    1171    1.600916e+00    0.000e+00    1.383e+14    3.679e-01
+   12    1268    1.553748e+00    0.000e+00    1.383e+14    2.653e-01
+   13    1365    1.551489e+00    0.000e+00    1.383e+14    1.348e-01
+   14    1464    1.545833e+00    0.000e+00    1.383e+14    8.077e-02
+   15    1561    1.532678e+00    0.000e+00    1.254e+13    6.784e-02
+
+Local minimum found that satisfies the constraints.
+
+Optimization completed because the objective function is non-decreasing in 
+feasible directions, to within the value of the optimality tolerance,
+and constraints are satisfied to within the value of the constraint tolerance.
+
+Pass 3: ef=1, fval=1.532678, 1stOrd=1.25e+13, 82.8s
+  -> Accepted
+
+=== FINAL RESULT ===
+fval = 1.532678, exitflag = 1, 1stOrd = 1.25e+13
+
+Type ergodic distributions (before state ordering):
+      Type      OLF        U      STJ      LTJ   E-mass
+    High-N   0.7706   0.0550   0.0873   0.0870   0.1744  omega=0.0802
+    High-U   0.1719   0.3932   0.2175   0.2175   0.4349  omega=0.0404
+    High-E   0.0279   0.0748   0.4494   0.4480   0.8973  omega=0.1487
+     All-E   0.0121   0.0022   0.0000   0.9857   0.9857  omega=0.6497
+
+Type ordering check:
+  theta=1 (High-N): should dominate OLF (state 1)
+  theta=2 (High-U): should dominate U (state 2)
+  theta=3 (High-E): should dominate E (states 3+4)
+  theta=4 (All-E):  structural zeros on state 3

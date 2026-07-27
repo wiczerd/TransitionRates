@@ -1,0 +1,118 @@
+=== SMOOTHNESS SETTINGS: lam_pi=0.050, lam_pi_em=0.100 ===
+=== Phase 3 Sequential EM Free Init (Smooth): 47 years ===
+Loading data ...
+Data loaded: 6561 paths x 47 years
+Loading free-init EM results as warm-starts ...
+Warm-start results loaded (mean fval=1.6926, unpenalized)
+
+=== FORWARD PASS ===
+Fwd 1 (1976): fval=1.4114 (warmstart=1.4087, delta=+0.0027) (worse)  [291s]
+Fwd 2 (1978): fval=1.3311 (warmstart=1.3273, delta=+0.0037) (worse)  [95s]
+Fwd 3 (1979): fval=1.4366 (warmstart=1.4341, delta=+0.0024) (worse)  [284s]
+Fwd 4 (1980): fval=1.5655 (warmstart=1.5624, delta=+0.0031) (worse)  [105s]
+Fwd 5 (1981): fval=1.6878 (warmstart=1.6827, delta=+0.0051) (worse)  [84s]
+Fwd 6 (1982): fval=1.8435 (warmstart=1.8401, delta=+0.0034) (worse)  [422s]
+Fwd 7 (1983): fval=1.7010 (warmstart=1.6988, delta=+0.0023) (worse)  [441s]
+Fwd 8 (1984): fval=1.6891 (warmstart=1.6887, delta=+0.0003) (worse)  [52s]
+Fwd 9 (1985): fval=1.7355 (warmstart=1.7346, delta=+0.0009) (worse)  [56s]
+Fwd 10 (1986): fval=1.6053 (warmstart=1.6039, delta=+0.0015) (worse)  [143s]
+Fwd 11 (1987): fval=1.4964 (warmstart=1.4958, delta=+0.0006) (worse)  [248s]
+Fwd 12 (1988): fval=1.4899 (warmstart=1.4895, delta=+0.0004) (worse)  [426s]
+Fwd 13 (1989): fval=1.4991 (warmstart=1.4984, delta=+0.0007) (worse)  [388s]
+Fwd 14 (1990): fval=1.5977 (warmstart=1.5972, delta=+0.0005) (worse)  [368s]
+Fwd 15 (1991): fval=1.7097 (warmstart=1.7093, delta=+0.0005) (worse)  [876s]
+Fwd 16 (1992): fval=1.7089 (warmstart=1.7068, delta=+0.0022) (worse)  [490s]
+Fwd 17 (1994): fval=1.7971 (warmstart=1.7934, delta=+0.0037) (worse)  [57s]
+Fwd 18 (1995): fval=1.5845 (warmstart=1.5841, delta=+0.0003) (worse)  [89s]
+Fwd 19 (1996): fval=1.5408 (warmstart=1.5404, delta=+0.0004) (worse)  [73s]
+Fwd 20 (1997): fval=1.4963 (warmstart=1.4957, delta=+0.0006) (worse)  [85s]
+Fwd 21 (1998): fval=1.4903 (warmstart=1.4894, delta=+0.0009) (worse)  [406s]
+Fwd 22 (1999): fval=1.5162 (warmstart=1.5163, delta=-0.0001)  [82s]
+Fwd 23 (2000): fval=1.5842 (warmstart=1.5797, delta=+0.0045) (worse)  [414s]
+Fwd 24 (2001): fval=1.6647 (warmstart=1.6633, delta=+0.0014) (worse)  [866s]
+Fwd 25 (2002): fval=1.7448 (warmstart=1.7431, delta=+0.0017) (worse)  [424s]
+Fwd 26 (2003): fval=1.9048 (warmstart=1.9029, delta=+0.0019) (worse)  [568s]
+Fwd 27 (2004): fval=1.6452 (warmstart=1.6446, delta=+0.0006) (worse)  [343s]
+Fwd 28 (2005): fval=1.6241 (warmstart=1.6220, delta=+0.0021) (worse)  [426s]
+Fwd 29 (2006): fval=1.6141 (warmstart=1.6124, delta=+0.0017) (worse)  [1334s]
+Fwd 30 (2007): fval=1.6695 (warmstart=1.6681, delta=+0.0014) (worse)  [392s]
+Fwd 31 (2008): fval=2.0057 (warmstart=2.0035, delta=+0.0021) (worse)  [479s]
+Fwd 32 (2009): fval=2.1237 (warmstart=2.1225, delta=+0.0012) (worse)  [810s]
+Fwd 33 (2010): fval=2.0832 (warmstart=2.0807, delta=+0.0026) (worse)  [1274s]
+Fwd 34 (2011): fval=2.0078 (warmstart=2.0055, delta=+0.0023) (worse)  [430s]
+Fwd 35 (2012): fval=1.9640 (warmstart=1.9603, delta=+0.0037) (worse)  [248s]
+Fwd 36 (2013): fval=1.8679 (warmstart=1.8654, delta=+0.0025) (worse)  [354s]
+Fwd 37 (2014): fval=1.8142 (warmstart=1.8114, delta=+0.0027) (worse)  [338s]
+Fwd 38 (2015): fval=1.7521 (warmstart=1.7511, delta=+0.0010) (worse)  [305s]
+Fwd 39 (2016): fval=1.7359 (warmstart=1.7345, delta=+0.0014) (worse)  [139s]
+Fwd 40 (2017): fval=1.6582 (warmstart=1.6582, delta=+0.0000)  [95s]
+Fwd 41 (2018): fval=1.6384 (warmstart=1.6389, delta=-0.0004) ** IMPROVED  [364s]
+Fwd 42 (2019): fval=1.9366 (warmstart=1.9290, delta=+0.0077) (worse)  [60s]
+Fwd 43 (2020): fval=2.0959 (warmstart=2.0920, delta=+0.0039) (worse)  [269s]
+Fwd 44 (2021): fval=1.7244 (warmstart=1.7239, delta=+0.0005) (worse)  [166s]
+Fwd 45 (2022): fval=1.6457 (warmstart=1.6455, delta=+0.0002) (worse)  [1219s]
+Fwd 46 (2023): fval=1.6477 (warmstart=1.6475, delta=+0.0002) (worse)  [45s]
+Fwd 47 (2024): fval=1.5488 (warmstart=1.5487, delta=+0.0001) (worse)  [79s]
+
+=== BACKWARD PASS ===
+Bwd 47 (2024): fval=1.5503 (warmstart=1.5487, delta=+0.0016) (worse)  [57s]
+Bwd 46 (2023): fval=1.6484 (warmstart=1.6475, delta=+0.0008) (worse)  [51s]
+Bwd 45 (2022): fval=1.6459 (warmstart=1.6455, delta=+0.0005) (worse)  [123s]
+Bwd 44 (2021): fval=1.7245 (warmstart=1.7239, delta=+0.0006) (worse)  [366s]
+Bwd 43 (2020): fval=2.0959 (warmstart=2.0920, delta=+0.0039) (worse)  [237s]
+Bwd 42 (2019): fval=1.9384 (warmstart=1.9290, delta=+0.0094) (worse)  [60s]
+Bwd 41 (2018): fval=1.6392 (warmstart=1.6389, delta=+0.0003) (worse)  [170s]
+Bwd 40 (2017): fval=1.6579 (warmstart=1.6582, delta=-0.0003) ** IMPROVED  [90s]
+Bwd 39 (2016): fval=1.7376 (warmstart=1.7345, delta=+0.0031) (worse)  [329s]
+Bwd 38 (2015): fval=1.7521 (warmstart=1.7511, delta=+0.0010) (worse)  [303s]
+Bwd 37 (2014): fval=1.8140 (warmstart=1.8114, delta=+0.0026) (worse)  [70s]
+Bwd 36 (2013): fval=1.8678 (warmstart=1.8654, delta=+0.0024) (worse)  [47s]
+Bwd 35 (2012): fval=1.9625 (warmstart=1.9603, delta=+0.0022) (worse)  [58s]
+Bwd 34 (2011): fval=2.0069 (warmstart=2.0055, delta=+0.0014) (worse)  [68s]
+Bwd 33 (2010): fval=2.0832 (warmstart=2.0807, delta=+0.0025) (worse)  [44s]
+Bwd 32 (2009): fval=2.1244 (warmstart=2.1225, delta=+0.0019) (worse)  [50s]
+Bwd 31 (2008): fval=2.0057 (warmstart=2.0035, delta=+0.0021) (worse)  [473s]
+Bwd 30 (2007): fval=1.6695 (warmstart=1.6681, delta=+0.0014) (worse)  [386s]
+Bwd 29 (2006): fval=1.6130 (warmstart=1.6124, delta=+0.0006) (worse)  [517s]
+Bwd 28 (2005): fval=1.6232 (warmstart=1.6220, delta=+0.0012) (worse)  [436s]
+Bwd 27 (2004): fval=1.6460 (warmstart=1.6446, delta=+0.0014) (worse)  [320s]
+Bwd 26 (2003): fval=1.9048 (warmstart=1.9029, delta=+0.0019) (worse)  [535s]
+Bwd 25 (2002): fval=1.7463 (warmstart=1.7431, delta=+0.0032) (worse)  [262s]
+Bwd 24 (2001): fval=1.6647 (warmstart=1.6633, delta=+0.0014) (worse)  [850s]
+Bwd 23 (2000): fval=1.5816 (warmstart=1.5797, delta=+0.0018) (worse)  [218s]
+Bwd 22 (1999): fval=1.5164 (warmstart=1.5163, delta=+0.0002) (worse)  [269s]
+Bwd 21 (1998): fval=1.4903 (warmstart=1.4894, delta=+0.0009) (worse)  [424s]
+Bwd 20 (1997): fval=1.4976 (warmstart=1.4957, delta=+0.0018) (worse)  [461s]
+Bwd 19 (1996): fval=1.5408 (warmstart=1.5404, delta=+0.0004) (worse)  [52s]
+Bwd 18 (1995): fval=1.5845 (warmstart=1.5841, delta=+0.0003) (worse)  [95s]
+Bwd 17 (1994): fval=1.7936 (warmstart=1.7934, delta=+0.0003) (worse)  [57s]
+Bwd 16 (1992): fval=1.7089 (warmstart=1.7068, delta=+0.0022) (worse)  [460s]
+Bwd 15 (1991): fval=1.7097 (warmstart=1.7093, delta=+0.0005) (worse)  [902s]
+Bwd 14 (1990): fval=1.5976 (warmstart=1.5972, delta=+0.0004) (worse)  [117s]
+Bwd 13 (1989): fval=1.4989 (warmstart=1.4984, delta=+0.0005) (worse)  [799s]
+Bwd 12 (1988): fval=1.4899 (warmstart=1.4895, delta=+0.0004) (worse)  [528s]
+Bwd 11 (1987): fval=1.4964 (warmstart=1.4958, delta=+0.0006) (worse)  [223s]
+Bwd 10 (1986): fval=1.6054 (warmstart=1.6039, delta=+0.0015) (worse)  [265s]
+Bwd 9 (1985): fval=1.7356 (warmstart=1.7346, delta=+0.0009) (worse)  [54s]
+Bwd 8 (1984): fval=1.6891 (warmstart=1.6887, delta=+0.0003) (worse)  [81s]
+Bwd 7 (1983): fval=1.7000 (warmstart=1.6988, delta=+0.0012) (worse)  [354s]
+Bwd 6 (1982): fval=1.8432 (warmstart=1.8401, delta=+0.0031) (worse)  [385s]
+Bwd 5 (1981): fval=1.6874 (warmstart=1.6827, delta=+0.0047) (worse)  [184s]
+Bwd 4 (1980): fval=1.5660 (warmstart=1.5624, delta=+0.0036) (worse)  [51s]
+Bwd 3 (1979): fval=1.4381 (warmstart=1.4341, delta=+0.0040) (worse)  [48s]
+Bwd 2 (1978): fval=1.3311 (warmstart=1.3273, delta=+0.0037) (worse)  [81s]
+Bwd 1 (1976): fval=1.4122 (warmstart=1.4087, delta=+0.0035) (worse)  [354s]
+
+=== COMBINING RESULTS ===
+Improved: 2/47 years
+Mean fval: warmstart=1.6926, smooth=1.6926 (delta=-0.0000)
+Sources: existing=44, forward=2, backward=1
+
+Post-processing and saving...
+
+=== FINAL SUMMARY ===
+Smoothness: lam_pi=0.050, lam_pi_em=0.100
+Improved: 2/47
+Mean fval: warmstart=1.6926 -> smooth=1.6926 (delta=-0.0000)
+Sources: existing=44, forward=2, backward=1
+Total time: 489.5 minutes
