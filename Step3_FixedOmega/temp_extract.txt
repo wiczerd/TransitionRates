@@ -1,0 +1,1 @@
+YearIdx,Year,ExitFlag,Fval_SSR2,RegBinding,RegPenalty,FirstOrdOpt
